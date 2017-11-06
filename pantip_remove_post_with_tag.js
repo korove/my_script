@@ -1,7 +1,7 @@
 window.onload = function() {
     if (window.jQuery) {  
         // jQuery is loaded  
-        alert("Yeah!");
+        // alert("Yeah!");
         //$("[data-tag=AIS]").css("background-color", "yellow");
         //$("[data-tag='AIS']").css("background-color", "red");
         var countTag = 0;
@@ -30,8 +30,8 @@ window.onload = function() {
         	//count++;
         	$( this ).remove();
         });
-        alert("count = " + count);
-        alert("countTag = " + countTag);
+        // alert("count = " + count);
+        // alert("countTag = " + countTag);
         //alert("Done!");
     } else {
         // jQuery is not loaded
