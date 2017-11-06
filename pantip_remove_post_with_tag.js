@@ -1,5 +1,12 @@
 window.onload = function() {
-    if (window.jQuery) {  
+
+    // $("html").bind("DOMNodeInserted",function(){
+    //     //console.log('element with class '+$("#container > *").attr('class') +' added to DOM');
+    //     //alert('new DOM Insert');
+    //     console.log('new DOM Insert ' + new Date($.now()));
+    // });
+
+    if (window.jQuery) {
         // jQuery is loaded  
         // alert("Yeah!");
         //$("[data-tag=AIS]").css("background-color", "yellow");
@@ -37,4 +44,6 @@ window.onload = function() {
         // jQuery is not loaded
         alert("Doesn't Work");
     }
+
+
 }
