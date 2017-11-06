@@ -26,9 +26,9 @@ window.onload = function() {
         	"[data-tag=truemove H]"
         	)
         	.each(function(index, el) {
-        	$( this ).css("background-color", "yellow");
+        	//$( this ).css("background-color", "yellow");
         	//count++;
-        	// $( this ).remove();
+        	$( this ).remove();
         });
         alert("count = " + count);
         alert("countTag = " + countTag);
